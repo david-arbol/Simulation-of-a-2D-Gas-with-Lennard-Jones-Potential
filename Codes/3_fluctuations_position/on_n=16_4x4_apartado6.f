@@ -1,3 +1,4 @@
+      !We calculate the fluctuations in the position with time for a solid that is heated in times t = 20, 30, 35, 45.
       program argon
       implicit none
       
