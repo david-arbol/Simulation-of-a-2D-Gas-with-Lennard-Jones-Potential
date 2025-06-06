@@ -1,0 +1,218 @@
+
+
+*******************************************************************************
+Thu Jul 06 12:39:09 2023
+
+
+FIT:    data read from 'T_v.txt'
+        format = z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x**2+b*x
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Thu Jul 06 12:39:18 2023
+
+
+FIT:    data read from 'T_v.txt'
+        format = z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x**2+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.2323981788e+02   0.00e+00  6.93e+00    1.000000e+00   1.000000e+00
+   4 4.9700741905e-02  -5.35e-01  6.93e-04    4.355891e-01   1.943233e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0497007
+rel. change during last iteration : -5.35071e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.15764
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0248504
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.435589         +/- 0.03468      (7.961%)
+b               = 0.194323         +/- 0.1191       (61.3%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.970  1.000 
+
+
+*******************************************************************************
+Thu Jul 06 12:40:13 2023
+
+
+FIT:    data read from 'T_v.txt'
+        format = z
+        x range restricted to [-4.50994 : 4.64533]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.1825469535e+00   0.00e+00  4.10e+00    4.355891e-01
+   3 1.1583676567e-01  -2.29e-01  4.10e-03    4.904827e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.115837
+rel. change during last iteration : -2.29072e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.1965
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0386123
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.490483         +/- 0.01044      (2.129%)
+
+
+*******************************************************************************
+Thu Jul 06 12:42:36 2023
+
+
+FIT:    data read from 'T_v.txt'
+        format = z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 9.2017033880e+01   0.00e+00  9.41e+00    1.000000e+00
+   4 1.1583676567e-01  -1.23e-08  9.41e-04    4.904827e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.115837
+rel. change during last iteration : -1.23279e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.1965
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0386123
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.490483         +/- 0.01044      (2.129%)
+
+
+*******************************************************************************
+Thu Jul 06 12:54:09 2023
+
+
+FIT:    data read from 'T_v.txt'
+        format = z
+        x range restricted to [0.640390 : 4.39039]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x**2+b
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Jul 06 12:54:11 2023
+
+
+FIT:    data read from 'T_v.txt'
+        format = z
+        x range restricted to [0.640390 : 4.39039]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x**2+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.3652014436e+00   0.00e+00  3.34e+00    4.904827e-01   1.000000e+00
+   4 1.9197958065e-02  -1.00e-02  3.34e-04    4.686619e-01   2.574854e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.019198
+rel. change during last iteration : -1.00419e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0979744
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00959898
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.468662         +/- 0.008626     (1.841%)
+b               = 0.257485         +/- 0.08115      (31.52%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.797  1.000 
+
+
+*******************************************************************************
+Thu Jul 06 12:54:40 2023
+
+
+FIT:    data read from 'T_v.txt'
+        format = z
+        x range restricted to [0.640390 : 4.39039]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Jul 06 12:54:42 2023
+
+
+FIT:    data read from 'T_v.txt'
+        format = z
+        x range restricted to [0.640390 : 4.39039]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 8.0642064892e+00   0.00e+00  2.64e+00    4.686619e-01   2.574854e-01   1.000000e+00
+   5 1.4647530482e-03  -5.80e-03  2.64e-05    5.342045e-01  -3.381999e-01   6.114155e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00146475
+rel. change during last iteration : -5.7992e-08
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0382721
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00146475
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.534204         +/- 0.01914      (3.582%)
+b               = -0.3382          +/- 0.0972       (28.74%)
+c               = 0.611415         +/- 0.1065       (17.43%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.984  1.000 
+c               0.898 -0.955  1.000 
