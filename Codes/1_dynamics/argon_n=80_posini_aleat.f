@@ -1,3 +1,4 @@
+      ! Dynamics and Temperature starting with 80 particles in random positions, ensuring that they are not too close to each other.
       program argon
       implicit none
       
