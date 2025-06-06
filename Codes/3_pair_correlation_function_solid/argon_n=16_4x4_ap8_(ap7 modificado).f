@@ -1,3 +1,4 @@
+      ! Pair correlation function of a solid for different temperatures
       program argon
       implicit none
       
