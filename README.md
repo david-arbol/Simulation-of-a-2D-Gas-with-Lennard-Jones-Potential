@@ -16,3 +16,12 @@ Language: Fortran 90
 ◦ Simulated solid-liquid-gas transition dynamics, determined the critical temperature, exponent, particle distance fluctuations, and pair correlation function.
 
 This is one of the two final projects of the course of Computational Physics in my BSc Physics at the University of Granada, Spain and, therefore, it is mainly in Spanish. 
+
+
+The name of the files mean:
+
+n = y : Number of particles simulated.
+
+z x z : Dimensions of the 2D space with boundary conditions.
+
+ap: Part of the report.
