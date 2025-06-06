@@ -1,5 +1,6 @@
 # Simulation-of-a-2D-Gas-with-Lennard-Jones-Potential
 Project applying the Verlet algorithm to simulate the dynamics and thermodynamics of a 2D Lennard-Jones gas with Fortran.
+
 ◦ Reviewed the theory of the Verlet algorithm and the statistical mechanics of the gas.
 ◦ Simulated gas dynamics, obtaining temperature and velocity distributions, matching theoretical results.
 ◦ Verified energy conservation and its temperature dependence, consistent with theory.
