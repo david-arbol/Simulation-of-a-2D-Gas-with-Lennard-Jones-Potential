@@ -12,7 +12,7 @@
       integer i,j,n,p,q
       real*8 pdec
       real*8 paux(2)
-      !Variables para c lculos posteriores
+      !Variables para cî¹‡culos posteriores
       real*8 Ec,Ep,Et,Temp
       integer cont
       real*8, dimension(:,:), allocatable :: radio
@@ -38,7 +38,7 @@
       allocate(radio(n,n))
 
       d=4.d0 !Dimensiones (dxd) de mi cristal bidimensional   !4.3
-              !Debe ser un n£mero natural
+              !Debe ser un nÏƒero natural
 
       !Abro archivos
       
@@ -56,7 +56,7 @@
       !Inicializo a cero la aceleraciones para luego sumarlas
       do i=1,n
          do j=1,n
-          acelx(i,j)=0.d0  !Aceleraci¢n de i ejercida por j
+          acelx(i,j)=0.d0  !Aceleraciâ–‹ de i ejercida por j
           acely(i,j)=0.d0
           radio(i,j)=0.d0
          enddo
@@ -132,7 +132,7 @@
       write(2,*)
       write(2,*)
 
-      !Inicializo las velocidades iniciales a modulo 1 y  ngulo random
+      !Inicializo las velocidades iniciales a modulo 1 y î¹‰gulo random
 
       do i=1,n
          do j=1,2
@@ -175,7 +175,7 @@
             radio(j,i)=radio(i,j)
          enddo
       enddo
-      !Aceleraci¢n total de cada part¡cula
+      !Aceleraciâ–‹ total de cada partï¸·ula
       do i=1,n
         do j=1,n
            a1(i,1)=a1(i,1)+acelx(i,j)
@@ -184,12 +184,12 @@
       enddo
 
       
-      !ENERGÖAS:
+      !ENERGæ·²S:
                 !Inicializo
       Ec=0.d0
       Ep=0.d0
       Et=0.d0
-                !Energ¡a cin‚tica:
+                !Energï½› cinî¾‰ica:
       do i=1,n
          Ec=Ec+0.5d0*(v(i,1)**2.d0+v(i,2)**2.d0)
          do j=i+1,n
@@ -200,13 +200,13 @@
       write(5,*) t, Ec, Ep, Et
 
 
-!!!!!!!ALGORITMO PARA CµLCULO MECµNICA  -------------------------------
+!!!!!!!ALGORITMO PARA Cç„¡CULO MECç…®ICA  -------------------------------
       do p=1,51000
         !Calculo omega
         omega=v+dt*0.5d0*a1
-        !Calculo posici¢n siguiente
+        !Calculo posiciâ–‹ siguiente
         r_aux=r+dt*omega
-        !Cond peri¢dicas en posici¢n
+        !Cond periâ–ƒicas en posiciâ–‹
         do i=1,n
           do j=1,2
           pdec=(r_aux(i,j)/d)-dfloat(int(r_aux(i,j)/d))
@@ -220,7 +220,7 @@
           enddo
         enddo
 
-!!!!!!!Calculo aceleraci¢n siguiente
+!!!!!!!Calculo aceleraciâ–‹ siguiente
       do i=1,n
         do j=1,n
            acelx(i,j)=0.d0
@@ -256,7 +256,7 @@
             radio(j,i)=radio(i,j)
          enddo
       enddo
-      !Aceleraci¢n total de cada part¡cula
+      !Aceleraciâ–‹ total de cada partï¸·ula
       do i=1,n
         do q=1,2
            a1(i,q)=0.d0
@@ -272,7 +272,7 @@
         !Calculo velocidad siguiente
         v=omega+dt*0.5d0*a1
 
-        !Calculo todo lo demÂ s
+        !Calculo todo lo demï¿½s
         t=t+dt
 
         !Escribo posiciones en fichero
@@ -285,11 +285,11 @@
         !Escribo aceleraciones en fichero
         write(4,*) ((a1(i,j), j=1,2), i=1,n)
 
-        !Energ¡as en cada paso
+        !Energï½›s en cada paso
         Ec=0.d0
         Ep=0.d0
         Et=0.d0
-                !Energ¡a cin‚tica:
+                !Energï½› cinî¾‰ica:
       do i=1,n
          Ec=Ec+0.5d0*(v(i,1)**2.d0+v(i,2)**2.d0)
          do j=i+1,n
