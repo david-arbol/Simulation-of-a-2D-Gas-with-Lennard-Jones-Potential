@@ -1,4 +1,4 @@
-      ! Dynamics and Temperature starting with a 4x4 square network of 16 particles with a random perturbation in the position of radius 0.5.
+      ! Dynamics and Temperature starting with a 4x4 square lattice of 16 particles with a random perturbation in the position of radius 0.5.
       program argon
       implicit none
       
