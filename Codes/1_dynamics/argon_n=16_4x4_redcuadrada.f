@@ -1,4 +1,4 @@
-      ! Dynamics and Temperature starting with a 4x4 square network of 16 particles.
+      ! Dynamics and Temperature starting with a 4x4 square lattice of 16 particles.
       program argon
       implicit none
       
