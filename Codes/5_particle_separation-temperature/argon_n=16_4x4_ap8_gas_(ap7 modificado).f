@@ -1,3 +1,4 @@
+      ! Pair correlation function of a gas for different temperatures
       program argon
       implicit none
       
