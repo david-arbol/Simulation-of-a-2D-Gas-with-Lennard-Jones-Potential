@@ -1,3 +1,4 @@
+      ! Calculation of the fluctuations on the particle separation with temperature. This yields a Supercritical Pitchfork Phase Transition.
       program argon
       implicit none
       
