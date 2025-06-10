@@ -1,7 +1,9 @@
 # Simulation-of-a-2D-Gas-with-Lennard-Jones-Potential
-Project applying the Verlet algorithm to simulate the dynamics and thermodynamics of a 2D Lennard-Jones gas with periodic boundary conditions.
+Project applying the Verlet algorithm to simulate the dynamics and thermodynamics of a 2D Lennard-Jones gas with periodic boundary conditions.This is one of the two final projects of the course of Computational Physics in my BSc Physics at the University of Granada, Spain and, therefore, it is mainly in Spanish. An English version will be uploaded eventually. 
 
-Language: Fortran 90
+**Score**: 9.8/10 (Recognised with honours)
+
+**Language**: Fortran 90
 
 ◦ Reviewed the theory of the Verlet algorithm and the statistical mechanics of the gas.
 
@@ -15,7 +17,7 @@ Language: Fortran 90
 
 ◦ Simulated solid-liquid-gas transition dynamics, determined the critical temperature, exponent, particle distance fluctuations, and pair correlation function.
 
-This is one of the two final projects of the course of Computational Physics in my BSc Physics at the University of Granada, Spain and, therefore, it is mainly in Spanish. An English version will be uploaded eventually. 
+
 
 
 The name of the files mean:
