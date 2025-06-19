@@ -26,4 +26,4 @@ n = y : Number of particles simulated.
 
 z x z : Dimensions of the 2D space with boundary conditions.
 
-ap: Part of the report.
+ap: Section of the report.
